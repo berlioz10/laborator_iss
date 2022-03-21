@@ -12,3 +12,5 @@ D:\Semestrul 4\Ingineria sistemelor software\Laborator\BibliotecaAppGui\Bibliote
 D:\Semestrul 4\Ingineria sistemelor software\Laborator\BibliotecaAppGui\BibliotecaAppGui\obj\Debug\BibliotecaAppGui.MainBiblioteca.resources
 D:\Semestrul 4\Ingineria sistemelor software\Laborator\BibliotecaAppGui\BibliotecaAppGui\obj\Debug\BibliotecaAppGui.ImprumutCarte.resources
 D:\Semestrul 4\Ingineria sistemelor software\Laborator\BibliotecaAppGui\BibliotecaAppGui\obj\Debug\BibliotecaAppGui.ReturCarte.resources
+D:\Semestrul 4\Ingineria sistemelor software\Laborator\BibliotecaAppGui\BibliotecaAppGui\obj\Debug\BibliotecaAppGui.Inregistrare.resources
+D:\Semestrul 4\Ingineria sistemelor software\Laborator\BibliotecaAppGui\BibliotecaAppGui\obj\Debug\BibliotecaAppGui.VizReturCarti.resources
