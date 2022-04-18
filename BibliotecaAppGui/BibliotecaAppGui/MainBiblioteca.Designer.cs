@@ -35,6 +35,7 @@
             this.returButton = new System.Windows.Forms.Button();
             this.vizReturButton = new System.Windows.Forms.Button();
             this.signupButton = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // vizualizareCartiList
@@ -113,11 +114,22 @@
             this.signupButton.UseVisualStyleBackColor = true;
             this.signupButton.Click += new System.EventHandler(this.signupButton_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Georgia", 14.25F);
+            this.label1.Location = new System.Drawing.Point(432, 320);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(58, 23);
+            this.label1.TabIndex = 7;
+            this.label1.Text = "label1";
+            // 
             // MainBiblioteca
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(732, 504);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.signupButton);
             this.Controls.Add(this.vizReturButton);
             this.Controls.Add(this.returButton);
@@ -129,6 +141,7 @@
             this.Text = "Biblioteca";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -141,6 +154,7 @@
         private System.Windows.Forms.Button returButton;
         private System.Windows.Forms.Button vizReturButton;
         private System.Windows.Forms.Button signupButton;
+        private System.Windows.Forms.Label label1;
     }
 }
 

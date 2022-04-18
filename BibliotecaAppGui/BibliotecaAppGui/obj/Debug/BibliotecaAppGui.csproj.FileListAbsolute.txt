@@ -14,3 +14,12 @@ D:\Semestrul 4\Ingineria sistemelor software\Laborator\BibliotecaAppGui\Bibliote
 D:\Semestrul 4\Ingineria sistemelor software\Laborator\BibliotecaAppGui\BibliotecaAppGui\obj\Debug\BibliotecaAppGui.ReturCarte.resources
 D:\Semestrul 4\Ingineria sistemelor software\Laborator\BibliotecaAppGui\BibliotecaAppGui\obj\Debug\BibliotecaAppGui.Inregistrare.resources
 D:\Semestrul 4\Ingineria sistemelor software\Laborator\BibliotecaAppGui\BibliotecaAppGui\obj\Debug\BibliotecaAppGui.VizReturCarti.resources
+D:\Semestrul 4\Ingineria sistemelor software\Laborator\BibliotecaAppGui\BibliotecaAppGui\bin\Debug\EntityFramework.dll
+D:\Semestrul 4\Ingineria sistemelor software\Laborator\BibliotecaAppGui\BibliotecaAppGui\bin\Debug\EntityFramework.SqlServer.dll
+D:\Semestrul 4\Ingineria sistemelor software\Laborator\BibliotecaAppGui\BibliotecaAppGui\bin\Debug\System.Data.SQLite.dll
+D:\Semestrul 4\Ingineria sistemelor software\Laborator\BibliotecaAppGui\BibliotecaAppGui\bin\Debug\System.Data.SQLite.EF6.dll
+D:\Semestrul 4\Ingineria sistemelor software\Laborator\BibliotecaAppGui\BibliotecaAppGui\bin\Debug\System.Data.SQLite.Linq.dll
+D:\Semestrul 4\Ingineria sistemelor software\Laborator\BibliotecaAppGui\BibliotecaAppGui\bin\Debug\EntityFramework.xml
+D:\Semestrul 4\Ingineria sistemelor software\Laborator\BibliotecaAppGui\BibliotecaAppGui\bin\Debug\EntityFramework.SqlServer.xml
+D:\Semestrul 4\Ingineria sistemelor software\Laborator\BibliotecaAppGui\BibliotecaAppGui\bin\Debug\System.Data.SQLite.xml
+D:\Semestrul 4\Ingineria sistemelor software\Laborator\BibliotecaAppGui\BibliotecaAppGui\obj\Debug\BibliotecaAppGui.csproj.CopyComplete

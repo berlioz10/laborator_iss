@@ -1,5 +1,8 @@
-﻿using System;
+﻿using BibliotecaAppGui.Repo;
+using BibliotecaAppGui.Utils;
+using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -16,7 +19,11 @@ namespace BibliotecaAppGui
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MainBiblioteca());
+            DbUtils dbUtils = new DbUtils(ConfigurationManager.ConnectionStrings["sqliteDB"]); 
+            AbonatInterfaceRepository abonatRepo = new AbonatDbRepository(dbUtils);
+            BibliotecarInterfaceRepository bibliotecarRepo = new BibliotecarDbRepository(dbUtils);
+            ExemplarCarteInterfaceRepository exemplarCarteRepo = new ExemplarCarteDbRepository(dbUtils);
+            Application.Run(new MainBiblioteca(abonatRepo, bibliotecarRepo, exemplarCarteRepo));
         }
     }
 }
