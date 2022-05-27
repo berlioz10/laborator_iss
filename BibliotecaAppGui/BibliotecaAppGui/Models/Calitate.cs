@@ -8,7 +8,7 @@ namespace BibliotecaAppGui.Models
 {
     public enum Calitate
     {
-        BUNA, MEDIE, PROASTA
+        BUNA = 2, MEDIE = 1, PROASTA = 0
     }
 
     public class CalitateHelp

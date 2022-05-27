@@ -23,3 +23,16 @@ D:\Semestrul 4\Ingineria sistemelor software\Laborator\BibliotecaAppGui\Bibliote
 D:\Semestrul 4\Ingineria sistemelor software\Laborator\BibliotecaAppGui\BibliotecaAppGui\bin\Debug\EntityFramework.SqlServer.xml
 D:\Semestrul 4\Ingineria sistemelor software\Laborator\BibliotecaAppGui\BibliotecaAppGui\bin\Debug\System.Data.SQLite.xml
 D:\Semestrul 4\Ingineria sistemelor software\Laborator\BibliotecaAppGui\BibliotecaAppGui\obj\Debug\BibliotecaAppGui.csproj.CopyComplete
+D:\Semestrul 4\Ingineria sistemelor software\Laborator\BibliotecaAppGui\BibliotecaAppGui\bin\Debug\Antlr3.Runtime.dll
+D:\Semestrul 4\Ingineria sistemelor software\Laborator\BibliotecaAppGui\BibliotecaAppGui\bin\Debug\FluentNHibernate.dll
+D:\Semestrul 4\Ingineria sistemelor software\Laborator\BibliotecaAppGui\BibliotecaAppGui\bin\Debug\Iesi.Collections.dll
+D:\Semestrul 4\Ingineria sistemelor software\Laborator\BibliotecaAppGui\BibliotecaAppGui\bin\Debug\NHibernate.dll
+D:\Semestrul 4\Ingineria sistemelor software\Laborator\BibliotecaAppGui\BibliotecaAppGui\bin\Debug\Remotion.Linq.dll
+D:\Semestrul 4\Ingineria sistemelor software\Laborator\BibliotecaAppGui\BibliotecaAppGui\bin\Debug\Remotion.Linq.EagerFetching.dll
+D:\Semestrul 4\Ingineria sistemelor software\Laborator\BibliotecaAppGui\BibliotecaAppGui\bin\Debug\Antlr3.Runtime.xml
+D:\Semestrul 4\Ingineria sistemelor software\Laborator\BibliotecaAppGui\BibliotecaAppGui\bin\Debug\FluentNHibernate.pdb
+D:\Semestrul 4\Ingineria sistemelor software\Laborator\BibliotecaAppGui\BibliotecaAppGui\bin\Debug\FluentNHibernate.xml
+D:\Semestrul 4\Ingineria sistemelor software\Laborator\BibliotecaAppGui\BibliotecaAppGui\bin\Debug\Iesi.Collections.xml
+D:\Semestrul 4\Ingineria sistemelor software\Laborator\BibliotecaAppGui\BibliotecaAppGui\bin\Debug\NHibernate.xml
+D:\Semestrul 4\Ingineria sistemelor software\Laborator\BibliotecaAppGui\BibliotecaAppGui\bin\Debug\Remotion.Linq.xml
+D:\Semestrul 4\Ingineria sistemelor software\Laborator\BibliotecaAppGui\BibliotecaAppGui\bin\Debug\Remotion.Linq.EagerFetching.xml

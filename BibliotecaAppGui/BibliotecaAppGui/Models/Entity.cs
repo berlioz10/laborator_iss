@@ -8,8 +8,12 @@ namespace BibliotecaAppGui.Models
 {
     public abstract class Entity
     {
-        public int id { get; }
+        public virtual int id { get; set;  }
 
+        public Entity()
+        {
+
+        }
         public Entity(int id)
         {
             this.id = id;

@@ -44,6 +44,7 @@
             this.returButton.TabIndex = 7;
             this.returButton.Text = "Returnează carte";
             this.returButton.UseVisualStyleBackColor = true;
+            this.returButton.Click += new System.EventHandler(this.returButton_Click);
             // 
             // carteExistLabel
             // 
@@ -51,7 +52,7 @@
             this.carteExistLabel.Location = new System.Drawing.Point(15, 64);
             this.carteExistLabel.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.carteExistLabel.Name = "carteExistLabel";
-            this.carteExistLabel.Size = new System.Drawing.Size(212, 23);
+            this.carteExistLabel.Size = new System.Drawing.Size(262, 29);
             this.carteExistLabel.TabIndex = 6;
             this.carteExistLabel.Text = "Această carte nu există!";
             // 
@@ -61,7 +62,7 @@
             this.label1.Location = new System.Drawing.Point(15, 19);
             this.label1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(97, 23);
+            this.label1.Size = new System.Drawing.Size(122, 29);
             this.label1.TabIndex = 5;
             this.label1.Text = "Cod carte:";
             // 
@@ -71,8 +72,9 @@
             this.codCarteTextBox.Location = new System.Drawing.Point(129, 16);
             this.codCarteTextBox.Margin = new System.Windows.Forms.Padding(11, 9, 11, 9);
             this.codCarteTextBox.Name = "codCarteTextBox";
-            this.codCarteTextBox.Size = new System.Drawing.Size(364, 29);
+            this.codCarteTextBox.Size = new System.Drawing.Size(364, 34);
             this.codCarteTextBox.TabIndex = 4;
+            this.codCarteTextBox.TextChanged += new System.EventHandler(this.codCarteTextBox_TextChanged);
             // 
             // label2
             // 
@@ -88,7 +90,7 @@
             // 
             // ReturCarte
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 23F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(506, 219);
             this.Controls.Add(this.label2);

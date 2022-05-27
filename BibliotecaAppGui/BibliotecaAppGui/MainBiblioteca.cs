@@ -28,9 +28,20 @@ namespace BibliotecaAppGui
             this.bibliotecarRepo = bibliotecarRepo;
             this.exemplarCarteRepo = exemplarCarteRepo;
             InitializeComponent();
+            loadData();
         }
 
-        internal void setAbonat(Abonat abonat)
+        public void loadData()
+        {
+            IList<ExemplarCarte> list = exemplarCarteRepo.find_all_possible();
+            vizualizareCartiList.Items.Clear();
+            foreach(ExemplarCarte el in list)
+            {
+                vizualizareCartiList.Items.Add(el);
+            }
+        }
+
+        public void setAbonat(Abonat abonat)
         {
             this.abonat = abonat;
             imprumutButton.Enabled = true;
@@ -50,6 +61,8 @@ namespace BibliotecaAppGui
             vizReturButton.Enabled = false;
             logoutButton.Enabled = false;
             label1.Visible = false;
+            loginButton.Enabled = true;
+            signupButton.Enabled = true;
         }
 
         private void loginButton_Click(object sender, EventArgs e)
@@ -60,25 +73,33 @@ namespace BibliotecaAppGui
 
         private void logoutButton_Click(object sender, EventArgs e)
         {
-
+            abonat = null;
+            imprumutButton.Enabled = false;
+            returButton.Enabled = false;
+            vizReturButton.Enabled = false;
+            logoutButton.Enabled = false;
+            label1.Visible = false;
+            loginButton.Enabled = true;
+            signupButton.Enabled = true;
         }
 
         private void vizReturButton_Click(object sender, EventArgs e)
         {
             VizReturCarti form = new VizReturCarti();
-            form.ShowDialog();
+            form.setAndShow(exemplarCarteRepo, abonat);
         }
 
         private void returButton_Click(object sender, EventArgs e)
         {
             ReturCarte form = new ReturCarte();
-            form.ShowDialog();
+            form.setAndShow(abonat, exemplarCarteRepo);
         }
 
         private void imprumutButton_Click(object sender, EventArgs e)
         {
             ImprumutCarte form = new ImprumutCarte();
-            form.ShowDialog();
+            form.setAndShow(abonat, exemplarCarteRepo);
+            loadData();
         }
 
         private void signupButton_Click(object sender, EventArgs e)

@@ -8,7 +8,7 @@ namespace BibliotecaAppGui.Models
 {
     public enum StareRetur
     {
-        NERETURNAT, ASTEPTARE, RETURNAT
+        NERETURNAT = 2, ASTEPTARE = 1, RETURNAT = 0
     }
 
     public class StareReturHelp

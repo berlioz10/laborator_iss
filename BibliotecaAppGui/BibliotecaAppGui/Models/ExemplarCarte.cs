@@ -8,11 +8,17 @@ namespace BibliotecaAppGui.Models
 {
     public class ExemplarCarte : Entity
     {
-        public string cod_unic { get; set; }
-        public DateTime data_rezervare { get; set; }
-        public Calitate calitate { get; set; }
-        public StareRetur stareRetur { get; set; }
-        public Carte carte { get; set; }
+        public virtual string cod_unic { get; set; }
+        public virtual DateTime data_rezervare { get; set; }
+        public virtual Calitate calitate { get; set; }
+        public virtual StareRetur stareRetur { get; set; }
+        public virtual Carte carte { get; set; }
+        public virtual Abonat abonat { get; set; }
+
+        public ExemplarCarte() : base(0)
+        {
+
+        }
         public ExemplarCarte(int id, string cod_unic, DateTime data_rezervare, Calitate calitate, StareRetur stareRetur, Carte carte) : base(id)
         {
             this.cod_unic = cod_unic;
@@ -20,6 +26,11 @@ namespace BibliotecaAppGui.Models
             this.calitate = calitate;
             this.stareRetur = stareRetur;
             this.carte = carte;
+        }
+
+        public override string ToString()
+        {
+            return cod_unic + ": " + carte.nume + " de " + carte.autor + " - " + calitate;
         }
     }
 }

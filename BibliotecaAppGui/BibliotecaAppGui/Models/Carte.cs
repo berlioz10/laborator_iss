@@ -8,9 +8,12 @@ namespace BibliotecaAppGui.Models
 {
     public class Carte : Entity
     {
-        private string nume { get; set; }
-        private string autor { get; set; }
+        public virtual string nume { get; set; }
+        public virtual string autor { get; set; }
+        public Carte() : base(0)
+        {
 
+        }
         public Carte(int id, string nume, string autor) : base(id)
         {
             this.nume = nume;

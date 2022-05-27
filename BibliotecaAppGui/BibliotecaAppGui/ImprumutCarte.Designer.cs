@@ -40,15 +40,16 @@
             this.codCarteTextBox.Location = new System.Drawing.Point(119, 14);
             this.codCarteTextBox.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.codCarteTextBox.Name = "codCarteTextBox";
-            this.codCarteTextBox.Size = new System.Drawing.Size(250, 29);
+            this.codCarteTextBox.Size = new System.Drawing.Size(250, 34);
             this.codCarteTextBox.TabIndex = 0;
+            this.codCarteTextBox.TextChanged += new System.EventHandler(this.codCarteTextBox_TextChanged);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(12, 17);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(97, 23);
+            this.label1.Size = new System.Drawing.Size(122, 29);
             this.label1.TabIndex = 1;
             this.label1.Text = "Cod carte:";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -58,9 +59,10 @@
             this.carteExistLabel.AutoSize = true;
             this.carteExistLabel.Location = new System.Drawing.Point(12, 48);
             this.carteExistLabel.Name = "carteExistLabel";
-            this.carteExistLabel.Size = new System.Drawing.Size(212, 23);
+            this.carteExistLabel.Size = new System.Drawing.Size(262, 29);
             this.carteExistLabel.TabIndex = 2;
             this.carteExistLabel.Text = "Această carte nu există!";
+            this.carteExistLabel.Click += new System.EventHandler(this.carteExistLabel_Click);
             // 
             // imprumutButton
             // 
@@ -72,9 +74,9 @@
             this.imprumutButton.UseVisualStyleBackColor = true;
             this.imprumutButton.Click += new System.EventHandler(this.imprumutButton_Click);
             // 
-            // ImprumutCarti
+            // ImprumutCarte
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 23F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(378, 130);
             this.Controls.Add(this.imprumutButton);
@@ -83,7 +85,7 @@
             this.Controls.Add(this.codCarteTextBox);
             this.Font = new System.Drawing.Font("Georgia", 14.25F);
             this.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.Name = "ImprumutCarti";
+            this.Name = "ImprumutCarte";
             this.Text = "Imprumuta carte";
             this.Load += new System.EventHandler(this.ImprumutCarti_Load);
             this.ResumeLayout(false);
